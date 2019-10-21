@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>笑話大全</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div id="p0" data-role="page">
+        <div data-role="header">笑話大全</div>
+        <div role="nfu" class="ui-content">
+            <ul data-role="listview">
+                    <li><a href="#p1">笑話1</a></li>
+                    <li><a href="#p2">笑話2</a></li>
+                    <li><a href="#p3">笑話3</a></li>
+                    <li><a href="#p4">笑話4</a></li>
+                    <li><a href="#p5">笑話5</a></li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <script language="javascript" type="text/javascript">
+                num = new Array(5);
+                num[0] = "<a href='#p1'>隨機笑話</a>"
+                num[1] = "<a href='#p2'>隨機笑話</a>"
+                num[2] = "<a href='#p3'>隨機笑話</a>"
+                num[3] = "<a href='#p4'>隨機笑話</a>"
+                num[4] = "<a href='#p5'>隨機笑話</a>"
+                x = Math.floor(Math.random()*num.length);
+                document.write(num[x]);
+            </script>
+        </div>
+    </div>
+    
+    <div id="p1" data-role="page">
+        <div data-role="header">笑話1</div>
+        <div role="main" class="ui-content">
+            <pre>
+                女：「如果我們結婚，你會戒煙嗎？」
+                男：「會的。」
+                女：「還有戒酒嗎？」
+                男：「是的。」
+                女：「晚上也不去俱樂部？」
+                男：「是的。」
+                女：「那還有什麼要放棄的嗎？」
+                男：「結婚的念頭。」
+            </pre>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#p0">返回</a>
+        </div>
+    </div>
+    
+    <div id="p2" data-role="page">
+        <div data-role="header">笑話2</div>
+        <div role="main" class="ui-content">
+            <pre>
+                某一所醫學院的學生在考期中考,考試題目：「母乳為什麼比牛乳好？」
+                
+                此學生的答案：
+                （１）不必沖泡，節省時間。
+                （２）溫度適中，不怕燙到小孩。
+                （３）保存方便，不怕被貓偷吃。
+                （４）容器美觀、大方。
+                （５）食用前不需搖一搖 。
+            </pre>        
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#p0">返回</a>
+        </div>
+    </div>
+    
+    <div id="p3" data-role="page">
+        <div data-role="header">笑話3</div>
+        <div role="main" class="ui-content">
+            <pre>
+                五歲的兒子第一次來動物園，走到黑天鵝區，看到黑天鵝時，
+                高興地跟爸爸說：爸爸、爸爸、你看！薑母鴨....
+            </pre>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#p0">返回</a>
+        </div>
+    </div>
+    
+    <div id="p4" data-role="page">
+        <div data-role="header">笑話4</div>
+        <div role="main" class="ui-content">
+            <pre>
+                加罰
+                
+                有一天小明和小華騎機車超速，被警察攔了下來，
+                警察說：「騎那麼快不怕死ㄚ~」
+                小明說：「不會ㄚ~因為上帝與我同在！」
+                警察又說：「那我要加開一張罰單」
+                小明說：「Why？」
+                警察說：「三人行，超載！」
+            </pre>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#p0">返回</a>
+        </div>
+    </div>
+    
+    <div id="p5" data-role="page">
+        <div data-role="header">笑話5</div>
+        <div role="main" class="ui-content">
+            <pre>
+                好個回答
+                
+                國小二年丙班上自然課，
+                老師問：「誰知道為什麼人死後身體會冷冰冰的？」
+                全班都沒人回答…
+                老師：「都沒人知道嗎？」
+                這時，教室後面有人說：「心靜自然涼…」
+            </pre>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <a href="#p0">返回</a>
+        </div>
+    </div>
+</body>
+</html>
